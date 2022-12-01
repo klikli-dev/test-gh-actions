@@ -18,7 +18,7 @@ jobs:
 
       - name: Update CHANGELOG
         id: changelog
-        uses: requarks/changelog-action@v1
+        uses: klikli-dev/changelog-action@main
         with:
           token: ${{ github.token }}
           tag: ${{ github.ref_name }}
